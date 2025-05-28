@@ -95,23 +95,23 @@ Essa função principal é responsável pela movimentação contínua do robô. 
 
 -----
 ## 🚀 Grupo
-Bruno Klein RA: 2201010
+Bruno Klein RA: *2201010*
 
-Erick Vicentini RA: 2200515
+Erick Vicentini RA: *2200515*
 
-Gabriel Morisco RA:2201686
+Gabriel Morisco RA: *2201686*
 
-Guilherme Gimenez RA: 2100786
+Guilherme Gimenez RA: *2100786*
 
-Guilherme Torres RA: 2200412
+Guilherme Torres RA: *2200412*
 
-Kauã Duque RA: 2201177
+Kauã Duque RA: *2201177*
 
-Luccas Delgado RA: 2200535
+Luccas Delgado RA: *2200535*
 
-Pedro Henrique RA: 2202159
+Pedro Henrique RA: *2202159*
 
-Ricardo Mantia RA: 2200292
+Ricardo Mantia RA: *2200292*
 
 -----
 

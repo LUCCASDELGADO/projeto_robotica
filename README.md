@@ -70,32 +70,27 @@ Essa função principal é responsável pela movimentação contínua do robô. 
   
 **main()**
 - Essa função inicializa a navegação do robô. Ela limpa a tela do EV3, imprime a mensagem de início e chama continuous_navigation() para executar o movimento e tomar decisões em tempo real.
-- 
+
 -----
 
 ## 🖥️ Configuração e Execução do Código
 **Configure o sistema:**
-
-🔹 Instale o ev3dev no LEGO EV3.
+🔹 Instale o ev3dev no LEGO EV3.  
 🔹 Configure o ambiente Python com a biblioteca pybricks.
 
 **Carregue o código:**
-
 🔹 Transfira o script ev3_maze.py para o EV3 via SSH ou outro método de sua preferência.
 
 **Prepare o robô:**
-
-🔹 Verifique se os motores e sensores estão corretamente conectados conforme a especificação.
+🔹 Verifique se os motores e sensores estão corretamente conectados conforme a especificação.  
 🔹 Coloque o robô no ponto inicial do grid.
 
 **Execute o código:**
-
-🔹 Acesse o terminal do EV3 e execute o comando:
+🔹 Acesse o terminal do EV3 e execute o comando:  
 🔹 `python ev3_maze.py`
 
 **Acompanhe a navegação:**
-
-🔹 Observe as informações exibidas na tela do EV3.
+🔹 Observe as informações exibidas na tela do EV3.  
 🔹 robô iniciará a navegação autônoma, ajustando sua rota conforme detecta obstáculos ou bordas.
 
 -----
@@ -121,5 +116,4 @@ Ricardo Mantia RA: 2200292
 -----
 
 ## 🧑‍🏫 Orientador
-
 Projeto desenvolvido sob orientação de [Gustavo Molina](https://github.com/gustavomolina17/gustavomolina17), que contribuiu com apoio técnico e conceitual ao longo da construção do sistema.

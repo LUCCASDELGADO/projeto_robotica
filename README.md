@@ -1,4 +1,4 @@
-# 🤖 Projeto EV3 - Navegação Autônoma com Sensores  
+# 🤖 Projeto EV3 - Navegação Autônoma com Sensores   
 Este projeto utiliza o LEGO Mindstorms EV3 com o sistema ev3dev e a biblioteca pybricks para permitir a navegação autônoma de um robô dentro de um ambiente pré-definido. O robô usa sensores para detectar obstáculos, bordas no chão e ajustar sua rota dinamicamente, garantindo uma movimentação eficiente e precisa.
 
 ----

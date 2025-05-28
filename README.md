@@ -74,22 +74,22 @@ Essa função principal é responsável pela movimentação contínua do robô. 
 -----
 
 ## 🖥️ Configuração e Execução do Código
-**Configure o sistema:**
+**Configure o sistema:**  
 🔹 Instale o ev3dev no LEGO EV3.  
 🔹 Configure o ambiente Python com a biblioteca pybricks.
 
-**Carregue o código:**
+**Carregue o código:**  
 🔹 Transfira o script ev3_maze.py para o EV3 via SSH ou outro método de sua preferência.
 
-**Prepare o robô:**
+**Prepare o robô:**  
 🔹 Verifique se os motores e sensores estão corretamente conectados conforme a especificação.  
 🔹 Coloque o robô no ponto inicial do grid.
 
-**Execute o código:**
+**Execute o código:**  
 🔹 Acesse o terminal do EV3 e execute o comando:  
 🔹 `python ev3_maze.py`
 
-**Acompanhe a navegação:**
+**Acompanhe a navegação:**  
 🔹 Observe as informações exibidas na tela do EV3.  
 🔹 robô iniciará a navegação autônoma, ajustando sua rota conforme detecta obstáculos ou bordas.
 

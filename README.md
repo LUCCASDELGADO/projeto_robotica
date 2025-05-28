@@ -9,7 +9,6 @@ O robô deve se deslocar dentro de um grid tomando decisões de movimento com ba
 -----
 
 ## 🧠 Funcionalidades
-
 **🔹 Movimentação precisa com DriveBase**
 O EV3Brick controla dois motores, garantindo movimentação fluida dentro do grid, utilizando funções de avanço, rotação e recalibração.
 
@@ -28,11 +27,9 @@ O display do EV3 exibe mensagens com leituras dos sensores, garantindo feedback 
 **🔹 Mapeamento inteligente do caminho**
 O código armazena rotas percorridas, permitindo ajustes e otimização na movimentação.
 
-
 -----
 
-## 🛠️ Componentes Utilizados  
-
+## 🛠️ Componentes Utilizados
 **Motores**  
 - Motor Esquerdo → Porta D  
 - Motor Direito → Porta A  
@@ -43,11 +40,9 @@ O código armazena rotas percorridas, permitindo ajustes e otimização na movim
 - Sensor Giroscópio → Porta S2
 - Sensor de Cor → Porta S3
 
-
 -----
 
 ## 📂 Estrutura do Código
-
 **rotate_sensor_degrees(degrees)**
 - Essa função controla o motor responsável pela rotação do sensor ultrassônico. O parâmetro degrees determina o ângulo de rotação, permitindo que o sensor possa medir distâncias à frente, à esquerda ou à direita do robô.
   
@@ -75,9 +70,35 @@ Essa função principal é responsável pela movimentação contínua do robô. 
   
 **main()**
 - Essa função inicializa a navegação do robô. Ela limpa a tela do EV3, imprime a mensagem de início e chama continuous_navigation() para executar o movimento e tomar decisões em tempo real.
-
+- 
 -----
 
+## 🖥️ Configuração e Execução do Código
+**Configure o sistema:**
+
+Instale o ev3dev no LEGO EV3.
+Configure o ambiente Python com a biblioteca pybricks.
+
+**Carregue o código:**
+
+Transfira o script ev3_maze.py para o EV3 via SSH ou outro método de sua preferência.
+
+**Prepare o robô:**
+
+Verifique se os motores e sensores estão corretamente conectados conforme a especificação.
+Coloque o robô no ponto inicial do grid.
+
+**Execute o código:**
+
+Acesse o terminal do EV3 e execute o comando:
+`python ev3_maze.py`
+
+**Acompanhe a navegação:**
+
+Observe as informações exibidas na tela do EV3.
+O robô iniciará a navegação autônoma, ajustando sua rota conforme detecta obstáculos ou bordas.
+
+-----
 ## 🚀 Grupo
 Bruno Klein RA: 2201010
 
